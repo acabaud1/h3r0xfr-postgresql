@@ -28,13 +28,13 @@ Si on exécute la requête suivante : `SELECT firstname, difference('Ma', firstn
 
 On obtiendra les résultats suivants :
 ```sql
-difference
-------------
-          1
-          1
-          1
-          0
-          2
+firstname | difference
+-----------+------------
+Mathilde  |          1
+Merlin    |          1
+Fabien    |          1
+Olympia   |          0
+Maurelle  |          2
 (5 rows)
 ```
 

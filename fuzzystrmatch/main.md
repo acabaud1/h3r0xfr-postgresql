@@ -18,6 +18,8 @@ La distance de Levenshtein est une distance, au sens mathématique du terme, don
 
 ## Soundex
 
+On a la table `students` suivante :
+
 ## Levenshtein
 
 ## Metaphone

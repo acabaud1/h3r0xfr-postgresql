@@ -1,8 +1,10 @@
-*Soutenance jeudi 7 juin 2018*
+*Soutenance du jeudi 7 juin 2018*
 
 ## Qu'est-ce que fuzzystrmatch ?
 
 Le module fuzzystrmatch fournit plusieurs fonctions pour déterminer les similarités et la distance entre les chaînes de caractères.
+
+Pour activer le module, il faut utiliser la commande `CREATE EXTENSION fuzzystrmatch`.
 
 ## Les fonctions
 
@@ -22,7 +24,7 @@ On a la table `students` suivante :
 
 ![Table student](https://github.com/h3r0xfr/h3r0xfr-postgresql/blob/master/fuzzystrmatch/students.png?raw=true)
 
-Si on exécute la requête suivante : `SELECT soundex('Ma') FROM students;`
+Si on exécute la requête suivante : `SELECT soundex('Ma') FROM students`
 
 On obtiendra les résultats suivants :
 

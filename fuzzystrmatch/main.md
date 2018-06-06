@@ -18,7 +18,7 @@ La distance de Levenshtein est une distance, au sens mathématique du terme, don
 
 ## Soundex
 
-On a la table `students` suivante :
+On a la table `students` suivante : (https://github.com/h3r0xfr/h3r0xfr-postgresql/blob/master/fuzzystrmatch/students.png)
 
 ## Levenshtein
 

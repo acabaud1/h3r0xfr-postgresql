@@ -20,7 +20,13 @@ La distance de Levenshtein est une distance, au sens mathématique du terme, don
 
 On a la table `students` suivante :
 
+<<<<<<< HEAD
 ![Table student](https://github.com/h3r0xfr/h3r0xfr-postgresql/blob/master/fuzzystrmatch/students.png?raw=true)
+=======
+![Table students]
+(https://github.com/h3r0xfr/h3r0xfr-postgresql/blob/master/fuzzystrmatch/students.png?raw=true)
+
+>>>>>>> 48ff2b8e7239adfa0f336647b9f3791a28cb08a9
 
 Si on exécute la requête suivante : `SELECT soundex('Ma') FROM students;`
 

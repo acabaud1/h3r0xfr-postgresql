@@ -11,5 +11,13 @@ Le module fuzzystrmatch fournit plusieurs fonctions pour déterminer les similar
 
 ## La distance de Levenshtein ?
 
-La distance de Levenshtein est une distance, au sens mathématique du terme, donnant une mesure de la différence entre deux chaînes de caractères. Elle est égale au nombre minimal de caractères qu'il faut supprimer, insérer ou remplacer pour passer d’une chaîne à l’autre.
+La distance de Levenshtein est une distance, au sens mathématique du terme, donnant une mesure de la différence entre deux chaînes de caractères. **Elle est égale au nombre minimal de caractères qu'il faut supprimer, insérer ou remplacer pour passer d’une chaîne à l’autre.**
 *Source: Wikipédia*
+
+## Soundex
+
+## Levenshtein
+
+## Metaphone
+
+## Double Metaphone

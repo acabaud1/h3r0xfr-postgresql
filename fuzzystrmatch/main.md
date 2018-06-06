@@ -27,6 +27,14 @@ On a la table `students` suivante :
 Si on exécute la requête suivante : `SELECT difference('Ma', firstname) FROM students ORDER BY student_id`
 
 On obtiendra les résultats suivants :
+``difference
+------------
+          1
+          1
+          1
+          0
+          2
+(5 rows) ``
 
 ## Levenshtein
 

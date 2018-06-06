@@ -22,6 +22,10 @@ On a la table `students` suivante :
 
 ![Table student](https://github.com/h3r0xfr/h3r0xfr-postgresql/blob/master/fuzzystrmatch/students.png?raw=true)
 
+Si on exécute la requête suivante : `SELECT soundex('Ma') FROM students;`
+
+On obtiendra les résultats suivants :
+
 ## Levenshtein
 
 ## Metaphone

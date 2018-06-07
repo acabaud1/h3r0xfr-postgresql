@@ -1,3 +1,10 @@
+## Arborescence
+
+* `/backup` - Fichiers de sauvegarde
+* `/config` - Fichiers de Configuration PostgreSQL
+* `/scripts` - Fichiers de scripts bash
+* `/sql` - Fichiers de commandes SQL/pSQL
+
 ## Annuaire des scripts
 
 Les scripts sont situés dans le répertoire `/scripts`.
@@ -19,11 +26,11 @@ Les scripts sont situés dans le répertoire `/scripts`.
 #### Base `ynov`
 * `create_ynov_database.sh` - Création de la base `ynov` et ses tables associées + fixtures
 
-#### Backup (répertoire `/backup`)
+#### Sauvegarde (répertoire `/backup`)
 * `backup_users.sh` - Exporte le contenu de la table `users` (base `shows`) au format CSV
 * `backup_shows.sh` - Exporte le contenu de la base `shows` au format SQL
 * `backup_all.sh` - Exporte l'ensemble des bases de données et paramètres du cluster au format SQL
 
-#### Restoration
+#### Restauration
 * `restore_shows.sh` - Restore le contenu de la base `shows` depuis le fichier CSV
 * `restore_all.sh` - Restore l'ensemble des bases de données et paramètres depuis le fichier SQL
